@@ -1,0 +1,59 @@
+.h1{
+    color: brown;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px
+}
+.form{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.div1,.div2,.div3{
+    margin-right: 15px
+}
+
+.input1,.input2,.input3{
+    padding: 15px;
+    border-radius: 10px;
+   
+    
+}
+
+.input1:focus,.input2:focus{
+    border: 5px solid red
+}
+
+.input3{
+    transition: all 1s ease
+}
+
+.input3:hover{
+    background: black;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+
+.error{
+    text-align: center;
+    color: brown;
+    background:black;
+    padding: 20px;
+    width: 40%;
+    margin: 0 auto
+}
+
+.contenido{
+    background: black;
+    color: brown;
+    padding: 25px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 10px
+}
+
